@@ -84,4 +84,15 @@ or
 
 
 
+## Acknowledgements
+
+I am so grateful to the authors of existing related projects for their ideas and collaboration:
+
+- [@codepen](https://codepen.io/)
+- [@stackoverflow](https://stackoverflow.com/)
+- [@google](https://google.com)
+
+## License
+
+This rating star component is open source software [licensed as MIT] .
 
