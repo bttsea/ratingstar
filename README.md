@@ -43,7 +43,7 @@ This is a create-react-app, so
   import { StarRating } from './ratingstar'
 ```
 
-2.1. Use it as editable rating star, the size is in 'px', you want set it to a bigger number when using for editable component, rating score will be brought back into the callback function 
+2. Use it as editable rating star, the size is in 'px', you want set it to a bigger number when using for editable component, rating score will be brought back into the callback function 
 ```sh
   ...
    onChangeRating(rating) {
@@ -60,9 +60,9 @@ This is a create-react-app, so
   ...
 ```
 
-or
+   or
 
-2.2. Use it as read only rating star, just set the size of the star and the rating (it can be anywhere from 0.0 to 5.0) 
+ 3. Use it as read only rating star, just set the size of the star and the rating (it can be anywhere from 0.0 to 5.0) 
 ```sh
     <StarRating 
         size={16} 
