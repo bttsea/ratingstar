@@ -1,8 +1,11 @@
+/**
+ *  Copyright (c) 2015-present,
+ *  Author: bttsea@gmail.com
+ */
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components';
 const uuid = require('uuid/v4')
-
 export const STARICON = "M20.388,10.918L32,12.118l-8.735,7.749L25.914,31.4l-9.893-6.088L6.127,31.4l2.695-11.533L0,12.118l11.547-1.2L16.026,0.6L20.388,10.918z";
 
 const OneStarDiv = styled.div`  
@@ -87,7 +90,6 @@ class OneStar extends React.Component {
   }
 };
 
-
 export class StarRating extends React.Component {
   static defaultProps = {
     rating: 5,
@@ -146,8 +148,3 @@ export class StarRating extends React.Component {
     )
   }
 }
-
-
-
-
-

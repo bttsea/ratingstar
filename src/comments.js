@@ -126,7 +126,7 @@ class CommentControl extends React.Component {
 
         <div style={{     cursor: 'pointer', marginBottom: '1.5rem' }}>
           <StarRating
-            size={36}
+            size={86}
             rating={this.state.rating}
             onChangeRating={this.onChangeRating}
           />
@@ -150,7 +150,8 @@ class CommentBox extends React.Component {
       comments: [
         { id: 1, author: "McDonald", commentonproduct: "Make it great", ratingonproduct: 4.5 },
         { id: 2, author: "ObraObra", commentonproduct: "Change it Change it, Yeah...", ratingonproduct: 2.5 },
-        { id: 3, author: "Witch", commentonproduct: "Nooooooooooooooooooooooooooooooooooooooood", ratingonproduct: 3.5 }
+        { id: 3, author: "Witch", commentonproduct: "Nooooooooooooooooooooooooooooooooooooooood", ratingonproduct: 3.5 },
+        { id: 4, author: "bttsea@gmail.com", commentonproduct: "the author of this rating star component is looking for job of frontend or full stack, you know my email right :-)", ratingonproduct: 5.0 }
       ]
     };
   }
